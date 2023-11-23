@@ -1,0 +1,74 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  #floorPlan {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: 2fr 1fr;
+    align-content: stretch;
+  }
+  
+  #row-1 {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr;
+
+  }
+  
+  .ESP32_Station {
+    border: 1px solid black;
+    background-color: #ffffff;
+  }
+ 
+  #Stair {
+    border: 1px solid black;
+    background-color: #ffffff;
+    grid-column: 2;
+    grid-row: 1 / 3;
+  }
+  
+  #Classroom {
+    border: 1px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1 / 3;
+    grid-template-rows: 2fr 1fr;
+  }
+  
+  #Room301 {
+    border: 1px solid black;
+    background-color: #ffffff;
+    grid-row: 1;
+  }
+  
+  #Room302 {
+    border: 1px solid black;
+    background-color: #ffffff;
+    grid-row: 1;
+  }
+
+  #Room303 {
+    border: 1px solid black;
+    background-color: #ffffff;
+    grid-row: 1;
+  }
+
+  #Room304 {
+    border: 1px solid black;
+    background-color: #ffffff;
+    grid-row: 1;
+  }
+  
